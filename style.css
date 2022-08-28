@@ -15,7 +15,7 @@ body {
     font-family: Roboto, serif;
     align-items: center;
     background-image: url('https://source.unsplash.com/1600x900/?Tehran');
-    object-fit: cover;
+    background-size: 100%;
 }
 
 .card {
