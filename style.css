@@ -14,7 +14,7 @@ body {
     justify-content: center;
     font-family: Roboto, serif;
     align-items: center;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-image: url('https://source.unsplash.com/1600x900/?Tehran');
     object-fit: cover;
 }
 
@@ -73,6 +73,20 @@ body {
 
 .weather {
     margin: 0 0.5em;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after {
+    visibility: visible;
+    content: "loading info...";
+    color: white;
+    position: absolute;
+    top: -10px;
 }
 
 .temp {
