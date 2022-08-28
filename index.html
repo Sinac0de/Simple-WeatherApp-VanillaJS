@@ -15,7 +15,7 @@
     <div class="card">
         <div class="search">
             <input type="text" class="search-bar" id="search-bar" placeholder="Search">
-            <button class="search-btn">
+            <button id="search-btn" class="search-btn">
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                     stroke-linejoin="round" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="11" cy="11" r="8"></circle>
@@ -25,11 +25,16 @@
         </div>
         <div class="weather">
             <h2 class="city">Weather in Kermanshah</h2>
-            <h2 class="temp">55°C</h2>
-            <img src="" alt="">
-            <div class="description">Cloudy</div>
+            <h1 class="temp">55°C</h1>
+            <div class="weather-description">
+                <img class="weather-icon">
+                <div class="description">Cloudy</div>
+            </div>
             <div class="humidity">Humidity: 60%</div>
-            <div class="wind">Wind speed: 6.5 km/h</div>
+            <div class="wind-lang">
+                <div class="wind">Wind speed: 6.5 km/h</div>
+                <button class="change-lang-btn">En / فا</button>
+            </div>
         </div>
     </div>
 

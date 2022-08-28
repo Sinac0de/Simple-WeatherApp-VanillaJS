@@ -15,7 +15,7 @@ body {
     font-family: Roboto, serif;
     align-items: center;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
-    background-position: center;
+    object-fit: cover;
 }
 
 .card {
@@ -73,4 +73,46 @@ body {
 
 .weather {
     margin: 0 0.5em;
+}
+
+.temp {
+    margin: 0.5em 0;
+}
+
+.wind-lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.humidity {
+    margin-top: 0.3em;
+}
+
+.weather-description {
+    display: flex;
+    align-items: center;
+    margin-left: -0.2em;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.change-lang-btn {
+    outline: none;
+    border: none;
+    width: 20%;
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(254, 254, 254, 0.047);
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.change-lang-btn:hover {
+    background-color: rgba(254, 254, 254, 0.129);
 }
