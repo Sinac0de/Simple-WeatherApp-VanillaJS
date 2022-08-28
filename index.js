@@ -37,7 +37,7 @@ let weather = {
     },
     search: () => {
         if (searchInput.value != null) {
-            weather.fetchWeather(searchInput.value);
+            weather.fetchWeather(searchInput.value.trim());
         } else {
             alert("Please enter a city name!");
         }
