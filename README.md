@@ -1,7 +1,7 @@
 ![Picture](https://i.ibb.co/fM9TyfN/1200x600wa.png)
 # Simple-WeatherApp-VanillaJS ☁
 > This project is a simple multilingual weather app that gets the weather data of a city from <a href="https://openweathermap.org">OpenWeatherMap</a>.
-And can tell you the weather information about the city that you search such as temperature , humidity , wind speed and description of the current weather.☁🌡
+And can tell you the weather information such as temperature , humidity , wind speed and description of the current weather.☁🌡
 
 # Project Demo
 * You can try the Demo <a href="https://sinasimpleweatherapp.netlify.app/">Here</a> ✌
