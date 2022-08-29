@@ -45,8 +45,7 @@ let weather = {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weather.apiKey}&units=metric&lang=fa`)
             .then(response => response.json())
             .then(data => weather.displayWeatherRtl(data, pageDirection))
-            .catch((err) => {
-                console.log(err);
+            .catch(() => {
                 alert("شهر مورد نظر یافت نشد!");
                 searchInput.value = "";
             });
@@ -69,7 +68,6 @@ let weather = {
 
     search: () => {
         if (searchInput.value != null) {
-            console.log(pageDirection)
             if (pageDirection == "ltr") {
                 weather.fetchWeatherLtr(searchInput.value.trim());
             } else if (pageDirection == "rtl") {
